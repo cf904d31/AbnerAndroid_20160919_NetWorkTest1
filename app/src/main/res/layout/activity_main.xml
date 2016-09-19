@@ -9,9 +9,14 @@
         android:layout_height="wrap_content"
         android:text="Click me"
         android:onClick="test1"/>
-    <TextView
-        android:id="@+id/mesg"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/mesg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+    </ScrollView>
+
 </LinearLayout>
